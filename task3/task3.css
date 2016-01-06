@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Microsoft Yahei',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #68cdd5;
+    color: white;
+}
+.header{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    position: relative;
+}
+.return{
+    position: absolute;
+    left: 1%;
+    top: 25%;
+}
+.return img{
+    width: 100%;
+}
+.header h1{
+    text-align: center;
+    font-size: 4vh;
+    padding-top: 2vh;
+}
+.more{
+    position: absolute;
+    right: 1%;
+    top: 25%;
+}
+.content{
+    text-align: center;
+}
+.back{
+    position: absolute;
+    padding-left:3%;
+    padding-top:3%;
+}
+.logo{
+    position: relative;
+    top: 15vh;
+}
+.logo img{
+    width: 35vw;
+    max-width: 300px;
+}
+.wenzi1{
+    position: relative;
+    top:25vh;
+    width: 60vw;
+    font-size: 120%;
+    margin: auto;
+    max-width: 600px;
+}
+.left{
+    position: absolute;
+    width: 50vw;
+    bottom: 10vh;
+    left: 2vh;
+}
+.right{
+    position: absolute;
+    width: 50vw;
+    bottom: 10vh;
+    right: 2vh;
+}
+.left img{
+    width: 10vh;
+}
+.right img{
+    width: 10vh;
+}

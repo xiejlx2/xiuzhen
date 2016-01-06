@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Microsoft Yahei',sans-serif;
+}
+.container{
+    text-align: center;
+    height: 100vh;
+}
+.header{
+    height: 8%;
+    width: 100%;
+    background-color: #29bde0;
+    border-bottom:2px solid #87e1f7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+.hd_left{
+    position: absolute;
+    left: 3%;
+    top: 25%;
+}
+.hd_left img{
+    height: 4vh;
+}
+.hd_right{
+    position: absolute;
+    right: 3%;
+    top: 25%;
+}
+.hd_right img{
+    height: 4vh;
+}
+.header p{
+    color: white;
+    font-size: 4vh;
+    padding: 2vh;
+}
+/*以上是header部分*/
+.content{
+    background-color: #29bde0;
+}
+.ct_logo{
+    padding: 10% 0 4% 0;
+}
+.ct_logo img{
+    width: 40vw;
+    margin: 6vh 0 0 0;
+}
+.ct_text{
+    color: #ff9940;
+    font-size:120%;
+    width: 60vw;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 0 2vh 0;
+}
+.ct_result{
+    color: white;
+    font-size:100%;
+    width: 60vw;
+    margin: 0 auto;
+}
+.ct_result p{
+    padding: 0 0 4vh 0;
+    text-align: left;
+}
+.item1,.item2,.item3{
+    border: 1px solid #C8C8C8;
+}
+.item_day{
+    display: inline-block;
+    font-size: 120%;
+    margin: 0 auto;
+    width: 30vw;
+    text-align: left;
+}
+.item_time{
+    display: inline-block;
+    text-align: right;
+    width: 30vw;
+}
+.item_result{
+    width: 60vw;
+    margin: 0 auto;
+    font-size: 80%;
+    text-align: left;
+    color: darkgrey;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 12vh;
+    background: rgba(41, 189, 224,0.6);
+    color: white;
+}
+.ft_left{
+    float: left;
+    width: 25vw;
+    background-color: #f66f6f;
+    padding: 1.5vh 5vw;
+    margin: 3vh 5vw;
+    border-radius: 3vh;
+}
+.ft_right{
+    float: right;
+    width: 25vw;
+    background-color: #fbb435;
+    padding: 1.5vh 5vw;
+    margin: 3vh 5vw;
+    border-radius: 3vh;
+}
